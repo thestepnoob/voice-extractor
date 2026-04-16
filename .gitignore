@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Project specific
+uploads/
+huggingtoken.txt
+test_gpu_crash.*
+verify_*.py
+tests.py
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
