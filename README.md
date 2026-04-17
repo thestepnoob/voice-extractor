@@ -21,6 +21,8 @@ A powerful local audio processing tool designed for high-quality vocal separatio
 
 ### 1. Prerequisites
 
+- **FFmpeg**: Essential for audio conversion (pydub & demucs).
+    - **Windows**: Install via `choco install ffmpeg` or download from [ffmpeg.org](https://ffmpeg.org/download.html) and add to PATH.
 - **Python**: 3.10+
 - **CUDA**: Highly recommended for faster processing (GPU).
 - **Hugging Face Token**: Required for downloading the pyannote models. Accept the terms on Hugging Face for the following models:
@@ -41,7 +43,7 @@ A powerful local audio processing tool designed for high-quality vocal separatio
 1. Start the application:
 
    ```bash
-   python app.py
+   python voice_extractor.py
    ```
 
 2. Open your browser to the URL shown in the terminal (usually `http://localhost:8080`).
